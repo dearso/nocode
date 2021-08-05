@@ -1,1 +1,1 @@
-FROM scratch
+FROM 없음
