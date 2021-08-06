@@ -1,1 +1,1 @@
-All changes are welcome as long as no code is involved. If you run into any bugs, please file an issue and explain how that was even possible.
+코드없음에 한하여 뜻대로 바꾸세요. 버그 발견시 어떻게 그게 현실적으로 가능했는지 자세한 설명과 함께 문제를 제기해 주세요.

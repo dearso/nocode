@@ -1,43 +1,43 @@
-# No Code Style Guide
+# 코드없음 스타일 안내
 
-All no code programs are the same, regardless of use case, any code you write is a liability.
+코드없음 프로그램은 사용례와 상관없이 모두가 동일하므로, 뭐든지 당신이 추가한다면 골머리만 썩일겁니다.
 
-## File Extensions
+## 파일 확장자
 
-No code is not stored in files, but if you must, use the `.no` file extension.
-
-```
-main.no
-```
-
-## Linters
-
-There is only one way to write no code and the `du` command can help you identify any issues. 
+코드없음은 파일로 저장하지 않지만, 만약 꼭 해야 한다면, `.no` 파일 확장자를 사용하세요.
 
 ```
-du -h main.no
+메인.no
+```
+
+## 잔 솜털들
+
+코드없음은 오로지 한가지 방법으로만 코드를 만들수 있어며 `du` 명령어가 문제점 파악을 도와줄 것입니다.
+
+```
+du -h 메인.no
 ```
 
 ```
-0       main.no
+0       메인.no
 ```
 
-> The only valid code is no code.
+> 코드없음만 유일하게 유효한 코드입니다.
 
-## Code Reviews
+## 코드 검토
 
-The no code community has adopted the following conventions when reviewing code changes:
+코드없음 지역사회는 코드변경 검토시에 다음과 같은 협약을 수용키로 하였습니다:
 
-When the change contains no code additions or modifications:
-
-```
-LGTM # Looks Good To Me
-```
-
-When the change includes code additions or modifications:
+코드변경이 추가없음이나 변화없음의 경우에:
 
 ```
-CIAL # Code Is A Liability
+LGTM # 보기좋아
 ```
 
-> Change requests that fall into this category should be rejected immediately.
+코드변경이 추가있음이나 변화있음의 경우에:
+
+```
+CIAL # 책임져
+```
+
+> 위와 같은 유형의 코드변경 요구시엔 곧바로 거부권을 행사해 주시옵소서.
